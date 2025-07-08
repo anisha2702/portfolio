@@ -22,7 +22,7 @@ const projects = [
     title: "Thrift Store Platform",
     description: "A full-stack thrift store web app with seller dashboard, product listings, image upload, and location filters.",
     technologies: ["Next.js", "Prisma", "Cloudinary", "NextAuth", "Tailwind CSS"],
-    imageUrl: "/images/portfolio.png",
+    imageUrl: "/images/thrift-store.png",
     liveUrl: "",
     repoUrl: "https://github.com/anisha2702/thrift-store",
   },
