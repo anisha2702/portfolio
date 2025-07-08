@@ -28,7 +28,7 @@ export default function Hero() {
 
       <Reveal>
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 relative z-10 text-gray-900 dark:text-white">
-          Hi, I'm{' '}
+          Hi, I &apos;m{' '}
           <span className="text-indigo-600 dark:text-blue-400 drop-shadow-[0_0_5px_rgba(79,70,229,0.6)]">
             Anisha
           </span>
