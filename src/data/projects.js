@@ -5,7 +5,7 @@ const projects = [
     description: "A modern portfolio built with Next.js and Tailwind CSS. Features dark mode, animations, and responsive layout.",
     technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
     imageUrl: "/images/portfolio.png",
-    liveUrl: "",
+    liveUrl: "anishakuamriportfolio.vercel.app",
     repoUrl: "https://github.com/anisha2702/portfolio",
   },
   {
