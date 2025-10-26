@@ -1,13 +1,13 @@
 const projects = [
   {
-    slug: "portfolio",
-    title: "Portfolio Website",
-    description: "A modern portfolio built with Next.js and Tailwind CSS. Features dark mode, animations, and responsive layout.",
-    technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    imageUrl: "/images/portfolio.png",
-    liveUrl: "anishakuamriportfolio.vercel.app",
-    repoUrl: "https://github.com/anisha2702/portfolio",
-  },
+  slug: "fake-news-detection-system",
+  title: "Fake News Detection System",
+  description: "A full-stack web application built with the MERN stack and integrated with a Machine Learning model to detect fake news in real time. Features secure authentication, RESTful APIs, and a clean, responsive user interface.",
+  technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Python", "Scikit-learn", "Machine Learning"],
+  imageUrl: "/images/fake-news-detection.png",
+  liveUrl: "",
+  repoUrl: "https://github.com/anisha2702/Fake_News_Detection_System",
+},
   {
     slug: "chatbot",
     title: "Library Chatbot",

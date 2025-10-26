@@ -11,7 +11,7 @@ export default function Hero() {
   useEffect(() => {
     if (el.current) {
       typed.current = new Typed(el.current, {
-        strings: ['Frontend Developer', 'Full Stack Developer'],
+        strings: ['Full Stack Developer', 'ML Enthusiast'],
         typeSpeed: 60,
         backSpeed: 40,
         loop: true,

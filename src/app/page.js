@@ -23,7 +23,7 @@ export default function Home() {
       {/* ✅ About Section */}
       <Reveal delay={0.1}>
         <section
-          className="bg-white dark:bg-gray-900 px-4  max-w-3xl mx-auto text-center rounded-xl shadow-sm"
+          className="bg-white dark:bg-gray-900 px-4  max-w-3xl mx-auto text-center rounded-xl shadow-sm scroll-mt-20"
           id="about"
         >
           <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">
@@ -43,6 +43,7 @@ export default function Home() {
               'Next.js',
               'Tailwind',
               'Git',
+              'Python',
             ].map((tech) => (
               <span
                 key={tech}
@@ -66,16 +67,16 @@ export default function Home() {
 
       {/* ✅ Projects Section */}
       <Reveal delay={0.2}>
-        <section className="px-4 max-w-4xl mx-auto " id="projects" >
+        <section className="px-4 max-w-4xl mx-auto scroll-mt-20 " id="projects" >
           <h2 className="text-3xl font-semibold text-center mb-8 text-gray-900 dark:text-white">Projects</h2>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: 'Portfolio Website',
-                desc: 'A personal portfolio site built with Next.js, Tailwind CSS, and Vercel. Supports dark mode and animations.',
+                title: 'Fake News Detection System',
+                desc: 'A full-stack web application built with the MERN stack and integrated with a Machine Learning model to detect fake news in real time.',
                 link: '#',
-                slug: "portfolio",
+                slug: "fake-news-detection-system",
               },
               {
                 title: 'Library Chatbot App',
@@ -108,7 +109,7 @@ export default function Home() {
 
 
       <Reveal delay={0.3}>
-        <section id="contact" className="px-4 max-w-2xl mx-auto  text-center">
+        <section id="contact" className="px-4 max-w-2xl mx-auto  text-center scroll-mt-20">
           <h2 className="text-3xl font-semibold mb-4 text-gray-900 dark:text-white">Contact Me</h2>
           <p className="text-gray-700 dark:text-gray-300 mb-6">
             I’m open to freelance work, collaboration, or just a friendly chat.

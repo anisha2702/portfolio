@@ -1,6 +1,6 @@
 'use client';
 
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGithub,FaPython} from 'react-icons/fa';
 import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
 import Reveal from './Reveal';
 
@@ -13,6 +13,7 @@ const skills = [
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-600" /> },
   { name: "GitHub", icon: <FaGithub className="text-gray-800 dark:text-white" /> },
+  { name: "Python", icon: <FaPython className="text-blue-400" /> },
 ];
 
 export default function Skills() {
